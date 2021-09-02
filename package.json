@@ -19,8 +19,11 @@
   },
   "homepage": "https://github.com/edpaulsen/amazona#readme",
   "dependencies": {
+    "axios": "^0.21.1",
     "bcryptjs": "^2.4.3",
     "dotenv": "^10.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-react": "^7.25.1",
     "express": "^4.17.1",
     "express-async-handler": "^1.1.4",
     "jsonwebtoken": "^8.5.1",
@@ -29,8 +32,9 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
-
-},
-"engines": {"node":"12.4.0", "npm": "6.9.0"}
-
+  },
+  "engines": {
+    "node": "12.4.0",
+    "npm": "6.9.0"
+  }
 }
